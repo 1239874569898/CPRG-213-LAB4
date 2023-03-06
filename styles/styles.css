@@ -1,0 +1,121 @@
+.first-flex{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 10px;
+    background-color: rgb(173, 216, 230);
+}
+
+.first-flex div{
+    width: 50%;
+    background-color: rgb(128, 128,128);
+    margin: 10px;
+}
+
+.first-flex #firstA {
+    margin-right: 0px;
+}
+
+.first-flex #firstB {
+    margin-left: 0px;
+}
+
+.second-flex{
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    padding: 15px;
+    gap: 15px;
+    background-color: rgb(173, 216, 230);
+}
+
+.second-flex div{
+    width: 33.33333%;
+    background-color: rgb(128, 128,128);
+}
+
+.second-flex #secondA{
+    margin-right: 0px;
+}
+
+.second-flex #secondB{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.second-flex #secondC{
+    margin-left: 0px;
+}
+
+.third-flex{
+    display: flex;
+    flex-direction: row;
+    height: 28px;
+    padding: 12px;
+    gap: 12px;
+    background-color: rgb(173, 216, 230);
+}
+
+.third-flex div{
+    background-color: rgb(128, 128,128);
+    border-color: black;
+    border: 2px solid;
+}
+
+.third-flex #thirdA{
+    width:50%;
+    margin-right: 0px;
+}
+
+.third-flex #thirdB{
+    width: 25%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.third-flex #thirdC{
+    width: 25%;
+    margin-left: 0px;
+}
+
+.fourth-flex{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    padding: 12px;
+    gap: 12px;
+    background-color: rgb(173, 216, 230);
+    flex-wrap:wrap;
+}
+
+.fourth-flex div{
+    background-color: rgb(128, 128,128);
+    border-color: black;
+    border: 2px solid;
+}
+
+.fourth-flex #fourthA{
+    width:24%;
+    margin-right: 0px;
+}
+
+.fourth-flex #fourthB{
+    width: 24%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.fourth-flex #fourthC{
+    width: 24%;
+    margin-left: 0px;
+}
+
+.fourth-flex #fourthD{
+    width: 24%;
+    margin-left: 0px;
+}
+
+.fourth-flex #fourthE{
+    width: 100%;
+    margin-left: 0px;
+}
